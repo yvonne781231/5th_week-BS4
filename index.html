@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css"
+        integrity="sha512-y9glprRcVESvYY3suAqBUYXx0ySbQNvbzzgvLy9F2o38Y7XCNeq/No2gnHjV3+Rjyq5ijoPZRMXotpdw6jcG4g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/all.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 bg-secondary">
+                <div class="sidebar pt-5 black">
+                    <a href=""><img class="mb-5" src="images/logo-ANSWER.svg" alt="ANSWER-logo"></a>
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        assessment
+                                    </span>
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        forum
+                                    </span>
+                                    Question
+                                </p>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center active">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        assignment
+                                    </span>
+                                    Assignment
+                                </p>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        video_library
+                                    </span>
+                                    Course
+                                </p>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        supervisor_account
+                                    </span>
+                                    Admin
+                                </p>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="" class="d-flex align-items-center">
+                                <p class="fz-2">
+                                    <span class="material-icons">
+                                        settings
+                                    </span>
+                                    Settings
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sidebar-footer pb-5">
+                        <div class="media d-flex align-items-center">
+                            <img src="images/andychen.jpeg" alt="user img" class="mr-3 rounded-circle"
+                                style="width:40px;">
+                            <div class="media-body">
+                                <p class="fz-2 font-weight-bold">Andy Chen</p>
+                                <p class="fz-1 gray-dark">andy0401@mail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-header -->
+            <div class="col-md-10">
+                <div class="content-header pt-5 pb-5 pl-5 pr-5">
+                    <div class="row d-flex align-items-center justify-content-between">
+                        <div class="col-md-4 d-flex align-items-center justify-content-between">
+                            <h2 class="fz-4 font-weight-bold">Assignment</h2>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle fz-2 d-flex align-items-center" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    All Courses
+                                    <span class="material-icons primary">
+                                        keyboard_arrow_down
+                                    </span>
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-end">
+                            <a href=""><span class="material-icons mr-4">
+                                    search
+                                </span></a>
+                            <a href=""><span class="material-icons">
+                                    notifications_active
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- content -->
+                <div class="content pb-5 pl-5 pr-5">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle fz-2 font-weight-bold d-flex align-items-center" href="#"
+                                role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                All (4)
+                                <span class="material-icons primary">
+                                    keyboard_arrow_down
+                                </span>
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+                                <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+                                <a class="dropdown-item" href="#">Final Assignment</a>
+                                <a class="dropdown-item" href="#">Final Assignment</a>
+                            </div>
+                        </div>
+                        <p class="fz-sm gray">2 comments</p>
+                    </div>
+                    <div class="row content-link">
+                        <div class="col-md-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-assignment1-list"
+                                    data-toggle="list" href="#list-assignment1" role="tab" aria-controls="assignment1">
+                                    <div class="d-flex w-100 justify-content-between mb-1">
+                                        <p class="fz-sm">Chapter Assignment 2</p>
+                                        <p class="fz-sm">4 hrs ago</p>
+                                    </div>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p class="fz-2 font-weight-bold">Please check this file…</p>
+                                        <p class="fz-sm gray-dark">Emily Wang</p>
+                                    </div>
+                                </a>
+                                <a class="list-group-item list-group-item-action" id="list-assignment-list"
+                                    data-toggle="list" href="#list-assignment2" role="tab" aria-controls="assignment2">
+                                    <div class="d-flex w-100 justify-content-between mb-1">
+                                        <p class="fz-sm">Chapter Assignment 1</p>
+                                        <p class="fz-sm">12 hrs ago</p>
+                                    </div>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p class="fz-2 font-weight-bold">My Homework</p>
+                                        <p class="fz-sm gray-dark">David Xu</p>
+                                    </div>
+                                </a>
+
+
+                                <a class="list-group-item list-group-item-action" id="list-assignment3-list"
+                                    data-toggle="list" href="#list-assignment3" role="tab" aria-controls="assignment3">
+                                    <div class="d-flex w-100 justify-content-between mb-1">
+                                        <p class="fz-sm">Final Assignment1</p>
+                                        <p class="fz-sm">18 hrs ago</p>
+                                    </div>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p class="fz-2 font-weight-bold">Have a problem with this…</p>
+                                        <p class="fz-sm gray-dark">Tony Wei</p>
+                                    </div>
+                                </a>
+                                <a class="list-group-item list-group-item-action" id="list-assignment4-list"
+                                    data-toggle="list" href="#list-assignment4" role="tab" aria-controls="assignment4">
+                                    <div class="d-flex w-100 justify-content-between mb-1">
+                                        <p class="fz-sm">Final Assignment2</p>
+                                        <p class="fz-sm">19 hrs ago</p>
+                                    </div>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p class="fz-2 font-weight-bold">Did I do it right?</p>
+                                        <p class="fz-sm gray-dark">Christina Lin</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="tab-content" id="nav-tabContent justify-content-between">
+                                <div class="tab-pane fade show active" id="list-assignment1" role="tabpanel"
+                                    aria-labelledby="list-assignment1-list">
+                                    <div class="card">
+                                        <div
+                                            class="card-header bg-secondary d-flex  align-items-center justify-content-between">
+                                            <div>
+                                                <p class="fz-sm mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                                                <p class="fz-2 font-weight-bold">Please check this file for me, thanks!
+                                                </p>
+
+                                            </div>
+                                            <div class="btn-more btn-group">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    <span class="material-icons">
+                                                        more_vert
+                                                    </span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <blockquote class="blockquote mb-0 ">
+                                                <div class="media">
+                                                    <img src="images/emilywang.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-5 border-secondary">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Emily Wang</h5>
+                                                        <p class="fz-sm gray-dark mb-2">10:38 AM (4 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi Teacher, the attached file is my
+                                                            homework of
+                                                            chapter 2.
+                                                            And here comes a question: Why in the following code the
+                                                            height of the <span class="primary bg-secondary"> div
+                                                            </span>is bigger than the height of the <span
+                                                                class="primary bg-secondary">img </span>?
+                                                            There is a gap below the image, but it doesn’t seems to be a
+                                                            padding/margin. What is the gap or extra space below image?
+                                                        </p>
+                                                        <button type="button" class="btn bg-secondary fz-2 black"><span
+                                                                class="material-icons mr-2">
+                                                                attach_file
+                                                            </span> HW-2-David.zip</button>
+                                                    </div>
+                                                </div>
+                                                <div class="media pt-5">
+                                                    <img src="images/andychen.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-2">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Andy Chen (You)</h5>
+                                                        <p class="fz-sm gray-dark mb-2">13:24 AM (1 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi David, by default, an image is rendered
+                                                            inline, like a letter so it sits on the same line that a, b,
+                                                            c and d sit on. There is space below that line for the
+                                                            descenders you find on letters like g, j, p and q. <br>
+                                                            You
+                                                            can:
+                                                            <br> 　• adjust the<span class="primary bg-secondary">
+                                                                vertical-align </span>of the image to position
+                                                            it
+                                                            elsewhere (e.g. the<span class="primary bg-secondary">
+                                                                middle </span>) or <br>　• change the<span
+                                                                class="primary bg-secondary"> display </span>so
+                                                            it
+                                                            isn’t inline.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="list-assignment2" role="tabpanel"
+                                    aria-labelledby="list-assignment2-list">
+                                    <div class="card">
+                                        <div
+                                            class="card-header bg-secondary d-flex  align-items-center justify-content-between">
+                                            <div>
+                                                <p class="fz-sm mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                                                <p class="fz-2 font-weight-bold">Please check this file for me, thanks!
+                                                </p>
+
+                                            </div>
+                                            <div class="btn-more btn-group">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    <span class="material-icons">
+                                                        more_vert
+                                                    </span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <blockquote class="blockquote mb-0 ">
+                                                <div class="media">
+                                                    <img src="images/emilywang.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-5 border-secondary">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Emily Wang</h5>
+                                                        <p class="fz-sm gray-dark mb-2">10:38 AM (4 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi Teacher, the attached file is my
+                                                            homework of
+                                                            chapter 2.
+                                                            And here comes a question: Why in the following code the
+                                                            height of the <span class="primary bg-secondary"> div
+                                                            </span>is bigger than the height of the <span
+                                                                class="primary bg-secondary">img </span>?
+                                                            There is a gap below the image, but it doesn’t seems to be a
+                                                            padding/margin. What is the gap or extra space below image?
+                                                        </p>
+                                                        <button type="button" class="btn bg-secondary fz-2 black"><span
+                                                                class="material-icons mr-2">
+                                                                attach_file
+                                                            </span> HW-2-David.zip</button>
+                                                    </div>
+                                                </div>
+                                                <div class="media pt-5">
+                                                    <img src="images/andychen.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-2">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Andy Chen (You)</h5>
+                                                        <p class="fz-sm gray-dark mb-2">13:24 AM (1 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi David, by default, an image is rendered
+                                                            inline, like a letter so it sits on the same line that a, b,
+                                                            c and d sit on. There is space below that line for the
+                                                            descenders you find on letters like g, j, p and q. <br>
+                                                            You
+                                                            can:
+                                                            <br> 　• adjust the<span class="primary bg-secondary">
+                                                                vertical-align </span>of the image to position
+                                                            it
+                                                            elsewhere (e.g. the<span class="primary bg-secondary">
+                                                                middle </span>) or <br>　• change the<span
+                                                                class="primary bg-secondary"> display </span>so
+                                                            it
+                                                            isn’t inline.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="list-assignment3" role="tabpanel"
+                                    aria-labelledby="list-assignment3-list">
+                                    <div class="card">
+                                        <div
+                                            class="card-header bg-secondary d-flex  align-items-center justify-content-between">
+                                            <div>
+                                                <p class="fz-sm mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                                                <p class="fz-2 font-weight-bold">Please check this file for me, thanks!
+                                                </p>
+
+                                            </div>
+                                            <div class="btn-more btn-group">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    <span class="material-icons">
+                                                        more_vert
+                                                    </span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <blockquote class="blockquote mb-0 ">
+                                                <div class="media">
+                                                    <img src="images/emilywang.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-5 border-secondary">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Emily Wang</h5>
+                                                        <p class="fz-sm gray-dark mb-2">10:38 AM (4 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi Teacher, the attached file is my
+                                                            homework of
+                                                            chapter 2.
+                                                            And here comes a question: Why in the following code the
+                                                            height of the <span class="primary bg-secondary"> div
+                                                            </span>is bigger than the height of the <span
+                                                                class="primary bg-secondary">img </span>?
+                                                            There is a gap below the image, but it doesn’t seems to be a
+                                                            padding/margin. What is the gap or extra space below image?
+                                                        </p>
+                                                        <button type="button" class="btn bg-secondary fz-2 black"><span
+                                                                class="material-icons mr-2">
+                                                                attach_file
+                                                            </span> HW-2-David.zip</button>
+                                                    </div>
+                                                </div>
+                                                <div class="media pt-5">
+                                                    <img src="images/andychen.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-2">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Andy Chen (You)</h5>
+                                                        <p class="fz-sm gray-dark mb-2">13:24 AM (1 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi David, by default, an image is rendered
+                                                            inline, like a letter so it sits on the same line that a, b,
+                                                            c and d sit on. There is space below that line for the
+                                                            descenders you find on letters like g, j, p and q. <br>
+                                                            You
+                                                            can:
+                                                            <br> 　• adjust the<span class="primary bg-secondary">
+                                                                vertical-align </span>of the image to position
+                                                            it
+                                                            elsewhere (e.g. the<span class="primary bg-secondary">
+                                                                middle </span>) or <br>　• change the<span
+                                                                class="primary bg-secondary"> display </span>so
+                                                            it
+                                                            isn’t inline.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="list-assignment4" role="tabpanel"
+                                    aria-labelledby="list-assignment4-list">
+                                    <div class="card">
+                                        <div
+                                            class="card-header bg-secondary d-flex  align-items-center justify-content-between">
+                                            <div>
+                                                <p class="fz-sm mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                                                <p class="fz-2 font-weight-bold">Please check this file for me, thanks!
+                                                </p>
+
+                                            </div>
+                                            <div class="btn-more btn-group">
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    <span class="material-icons">
+                                                        more_vert
+                                                    </span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <blockquote class="blockquote mb-0 ">
+                                                <div class="media">
+                                                    <img src="images/emilywang.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-5 border-secondary">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Emily Wang</h5>
+                                                        <p class="fz-sm gray-dark mb-2">10:38 AM (4 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi Teacher, the attached file is my
+                                                            homework of
+                                                            chapter 2.
+                                                            And here comes a question: Why in the following code the
+                                                            height of the <span class="primary bg-secondary"> div
+                                                            </span>is bigger than the height of the <span
+                                                                class="primary bg-secondary">img </span>?
+                                                            There is a gap below the image, but it doesn’t seems to be a
+                                                            padding/margin. What is the gap or extra space below image?
+                                                        </p>
+                                                        <button type="button" class="btn bg-secondary fz-2 black"><span
+                                                                class="material-icons mr-2">
+                                                                attach_file
+                                                            </span> HW-2-David.zip</button>
+                                                    </div>
+                                                </div>
+                                                <div class="media pt-5">
+                                                    <img src="images/andychen.jpeg" alt="user img"
+                                                        class="mr-3 rounded-circle" style="width:40px;">
+                                                    <div class="media-body pb-2">
+                                                        <h5 class="mt-0 fz-2 font-weight-bold">Andy Chen (You)</h5>
+                                                        <p class="fz-sm gray-dark mb-2">13:24 AM (1 hours ago)</p>
+                                                        <p class="fz-1 mb-2">Hi David, by default, an image is rendered
+                                                            inline, like a letter so it sits on the same line that a, b,
+                                                            c and d sit on. There is space below that line for the
+                                                            descenders you find on letters like g, j, p and q. <br>
+                                                            You
+                                                            can:
+                                                            <br> 　• adjust the<span class="primary bg-secondary">
+                                                                vertical-align </span>of the image to position
+                                                            it
+                                                            elsewhere (e.g. the<span class="primary bg-secondary">
+                                                                middle </span>) or <br>　• change the<span
+                                                                class="primary bg-secondary"> display </span>so
+                                                            it
+                                                            isn’t inline.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-2 d-flex justify-content-between">
+                                <div>
+                                    <a href=""><span class="material-icons fz-4 mr-4">
+                                            keyboard_arrow_left
+                                        </span></a>
+                                    <a href=""><span class="material-icons fz-4">
+                                            keyboard_arrow_right
+                                        </span></a>
+                                </div>
+                                <div class="d-flex">
+                                    <button type="button" class="btn primary btn-outline-primary mr-2">Mark as
+                                        read</button>
+                                    <button type="button" class="btn btn-primary">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+// color
+$primary:       #2A8356;
+$primary-light: #CDDDCD;
+$secondary:     #EDF4EE;
+$black:         #121212;
+$gray:          #707070;
+$gray-dark:     #0000009A;
+$gray-light:    #00000062;
+
+// font-size
+$font-size-base:1rem;
+
+$font-size-sm:$font-size-base*0.75; //12px
+$font-size-1:$font-size-base*0.875; //14px
+$font-size-2:$font-size-base*1;     //16px
+$font-size-3:$font-size-base*1.25;  //20px
+$font-size-4:$font-size-base*1.5;   //24px
+$font-size-5:$font-size-base*2;     //32px
+$font-size-6:$font-size-base*2.5;   //40px
+//space-size
+$space-size-base:1rem;
+
+$space-size-1:$font-size-base*0.25; //4px
+$space-size-2:$font-size-base*0.5;  //8px
+$space-size-3:$font-size-base*1;    //16px
+$space-size-4:$font-size-base*1.5;  //24px
+$space-size-5:$font-size-base*2;    //32px
+$space-size-6:$font-size-base*2.5;  //40px
+$space-size-7:$font-size-base*3;    //48px
+
